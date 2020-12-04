@@ -1,0 +1,83 @@
+.main-nav {
+  background-color: #003049;
+}
+.presentation-site {
+  padding: 5rem;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.btn {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+label {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+}
+.contact {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+/* SHEDULE  */
+.day {
+  width: 100vw;
+  height: 500px;
+}
+.dayOne-presentation {
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: space-around;
+}
+.img-presentation {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+/* END SHEDULE */
+
+.footer {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.movie-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.movie-card .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translateY(380px);
+}
+
+.movie-card:hover .card-body {
+  opacity: 1;
+  transform: translateY(0);
+}

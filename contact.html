@@ -30,7 +30,7 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
@@ -41,7 +41,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="rsvp.html">Reservation</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
@@ -80,64 +80,115 @@
     <!-- end header -->
 
     <!-- banner -->
-   
+    <section class="container-fluid banner">
+      <div class="ban">
+          <img src="" alt="site banner" />
+      </div>
+      <div class="inner-banner">
+        <h1>Welcome to Outside Events Co.</h1>
+        <button class="btn btn-custom"> Contact Us ! </button>
+      </div>
+    </section>
     <!-- end of banner-->
 
     <!-- about  -->
-   
+    <section class="container-fluid about">
+      <div class="container">
+        <div class="row"></div>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> 3rd Edition of movies festival</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt adipisci dicta iste nam odit eos eaque deserunt, suscipit amet! Pariatur, error atque debitis eveniet consectetur dolor qui. Dolore, provident.</p>
+        </article>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> Associative festival</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt adipisci dicta iste nam odit eos eaque deserunt, suscipit amet! Pariatur, error atque debitis eveniet consectetur dolor qui. Dolore, provident.</p>
+        </article>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+          <h2> We need benevolents</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt adipisci dicta iste nam odit eos eaque deserunt, suscipit amet! Pariatur, error atque debitis eveniet consectetur dolor qui. Dolore, provident.</p>
+        </article>
+      </div>
+
+    </section>
     <!-- end of about -->
 
      <!-- movies gallery of movies  -->
+     <section class="container-fluid movies">
+        <div class="container">
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+           
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+          
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
+          <article class="col-md-3 col-lg-3 col-xs-12 col-sm-12 item-folio">
+            
+          </article>
 
-    <!-- end of movies -->
-    <div class="container-fluid presentation-site">
-      <div class="row prensentation-site-row">
-        <div class="presentation">
-        <h1 class="presentation-site-title" >JE suis une présentation</h1>
-        <p class="presentation-site-p">Je suis une présentation</p>
         </div>
-      </div>
-    </div>
+    </section>
+    <!-- end of movies -->
+
     <!-- footer / contact-->
     <footer class="container-fluid footer">
-
+        <div class ="container">
           <div class="row">
-            <div class="col-md-12 col-md-offset-3">
-                <h3 class="contact">Contact Us </h3>
+            <div class="col-md-6 col-md-offset-3">
+              <div class="well well-sm">
                 <form class="form-horizontal" action="" method="post">
                 <fieldset>
+                  <legend class="text-center">Contact us</legend>
           
                   <!-- Name input-->
                   <div class="form-group">
-                    <label class="col-md-12 control-label" for="name">Name</label>
-                    <div class="col-md-12">
-                      <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+                    <label class="col-md-3 control-label" for="name">Name</label>
+                    <div class="col-md-9">
+                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
                     </div>
                   </div>
           
                   <!-- Email input-->
                   <div class="form-group">
-                    <label class="col-md-12 control-label" for="email">E-mail</label>
-                    <div class="col-md-12">
-                      <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
                     </div>
                   </div>
           
                   <!-- Message body -->
                   <div class="form-group">
-                    <label class="col-md-12 control-label" for="message">Message</label>
-                    <div class="col-md-12">
+                    <label class="col-md-3 control-label" for="message">Your message</label>
+                    <div class="col-md-9">
                       <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                     </div>
                   </div>
-                  
-                  
-                  
-                </div>
-              </fieldset>
-              <button type="submit" class="btn btn-primary btn-lg col-3">Submit</button>
-            </form>
+          
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+                </form>
+              </div>
             </div>
+        </div>
         </div>
     </footer>
     <!-- and of footer / contact-->
